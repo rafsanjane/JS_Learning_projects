@@ -1,0 +1,23 @@
+.success,
+.error,
+.warning {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+    font-size: large;
+
+}
+
+.success {
+    background: rgb(71, 143, 71);
+
+}
+
+.error {
+    background: rgb(199, 77, 77);
+}
+
+.warning {
+    background: rgb(206, 198, 84);
+    color: #fd6296;
+}
