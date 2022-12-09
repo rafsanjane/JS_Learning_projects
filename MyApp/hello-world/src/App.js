@@ -1,16 +1,16 @@
 
 import React from 'react';
-import Rafsan from './Rafsan.svg';
 import './App.css';
+import Book from './components/Book';
 
 function App() {
   return (
-    <ul>
-      <li><a class="active" href="#home">Home</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
+    <div className='container'>
+      <h1 className='App'> Book List</h1>
+      <Book bookName='Srikanto' writer='Shorot' />
+      <Book bookName='Abhiram' writer='Saytajit Ray' />
+    </div>
+
   );
 }
 
