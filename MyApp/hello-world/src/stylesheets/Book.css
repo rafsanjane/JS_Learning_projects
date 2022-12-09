@@ -1,0 +1,8 @@
+.book {
+    width: 300px;
+    padding: 30px;
+    border: solid 1px;
+    margin: 10px auto;
+    border-radius: 50px 5px 10px 5px;
+    text-align-last: left;
+}
